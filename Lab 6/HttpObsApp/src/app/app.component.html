@@ -1,0 +1,16 @@
+<h1>Students</h1>
+
+<ol>
+  <li *ngFor="let student of students">
+    <p>{{student.name}}, {{student.id}}, {{student.age}}, {{student.course}}</p>
+  </li>
+</ol>
+
+<br/>
+
+<h2>Weather in {{name}}</h2>
+
+<p>{{weather[0].main}}, {{weather[0].description}}.<br/>
+  Temperature: {{main.temp}}&#8451;<br/>
+  Humidity: {{main.humidity}}%
+</p>
